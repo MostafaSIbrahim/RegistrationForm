@@ -14,15 +14,6 @@ body {
     font-family: 'Poppins', sans-serif;
     color: white;
 }
-.container {
-    text-align: center;
-    background-color: rgba(27, 27, 50, 0.8);;
-    width: 80vw;
-    max-width: 500px;
-    min-width: 400px;
-    margin: 0 auto;
-    padding-bottom: 2em;
-}
 h1 {
     font-weight: 400;
     line-height: 1.2;
@@ -39,20 +30,30 @@ h1 {
     margin-bottom: 0.5rem;
     text-align: center;
   }
-  label {
+  form {
+    text-align: center;
+    background-color: rgba(27, 27, 50, 0.8);;
+    width: 80vw;
+    max-width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+fieldset {
+  border: none;
+  padding: 3rem 3rem 0;
+  text-align: left;
+}
+  label, input {
     display: block;
-
+    margin: 0.5rem 0;
   }
   input,
   select {
-    margin: 10px 0 0 0;
+    margin: 10px 10px 0 10px;
     width: 100%;
     min-height: 3em;
     background-color: wheat;
     border: 1px solid #0a0a23;
     color: black;
-  }
-  
-  .first-section {
-    text-align: left;
   }

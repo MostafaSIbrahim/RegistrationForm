@@ -11,12 +11,12 @@
         <p id="description">Thank you for taking the time to help us improve the platform</p>
         <div class="container">
             <form id="survey-form">
-                <div class="first-section">
-                    <lable id="name-label">Name<input id="name" type="text" placeholder="Enter your name"></lable>
-                    <lable id="email-label">Email<input id="email" type="email" placeholder="Enter your email"></lable>
-                    <lable id="number-label">Age(optional)<input id="number" type="number" placeholder="Age" min="13" max="120"></lable>
-                </div>
-                <div>
+                <fieldset class="first-section">
+                    <lable id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name"></lable>
+                    <lable id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email"></lable>
+                    <lable id="number-label" for="number">Age(optional)<input id="number" type="number" placeholder="Age" min="13" max="120"></lable>
+                </fieldset>
+                <fieldset>
                     <label>
                         Which option best describes your current role?
                         <select id="dropdown">
@@ -28,15 +28,15 @@
                             <option value="5">Other</option>
                         </select>
                     </label>
-                </div>
-                <div>
+                </fieldset>
+                <fieldset>
                     <label>
                         Would you recommend freeCodeCamp to a friend?
                         <input type="radio" checked>Definitely
                         <input type="radio" >Maybe
                         <input type="radio" >Not Sure
                     </label>
-                </div>
+                </fieldset>
             </form>
         </div>
     </body>
