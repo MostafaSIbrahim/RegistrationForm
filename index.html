@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>freeCodeCamp survay form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">freeCodeCamp Survay Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <div class="container">
+            <form id="survey-form">
+                <div class="first-section">
+                    <lable id="name-label">Name<input id="name" type="text" placeholder="Enter your name"></lable>
+                    <lable id="email-label">Email<input id="email" type="email" placeholder="Enter your email"></lable>
+                    <lable id="number-label">Age(optional)<input id="number" type="number" placeholder="Age" min="13" max="120"></lable>
+                </div>
+                <div>
+                    <label>
+                        Which option best describes your current role?
+                        <select id="dropdown">
+                            <option value="" disabled selected>Select Current Role</option>
+                            <option value="1">Student</option>
+                            <option value="2">Full Time Job</option>
+                            <option value="3">Full Time Learner</option>
+                            <option value="4">Prefer Not To Say</option>
+                            <option value="5">Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Would you recommend freeCodeCamp to a friend?
+                        <input type="radio" checked>Definitely
+                        <input type="radio" >Maybe
+                        <input type="radio" >Not Sure
+                    </label>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
